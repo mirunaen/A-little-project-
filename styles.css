@@ -1,11 +1,16 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color:rgb(49, 173, 182);
+    color:rgb(red, green, blue);
     text-align: center;
 }
 
 body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 .w3-row-padding img {margin-bottom: 12px}
+
+body{
+    background-image: url("./img/e7c8d4712ac67c25-free-christmas-wallpaper-gifs-download-merry-christmas.gif");
+    background-size: cover;
+}
 
 h1{
     color:white;
@@ -16,5 +21,59 @@ h1{
 
 .rainbow-2:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
-    animation:slidebg 2s linear infinite;
+    animation:slides 2s linear infinite;
+    display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
+
+.rainbow-2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .rainbow-2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .rainbow-2:hover span {
+    padding-right: 25px;
+  }
+  
+  .rainbow-2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  div.test {
+    white-space: nowrap; 
+    width: 200px; 
+    height: 150px;
+    overflow: hidden; 
+    border: 1px solid hsl(310, 58%, 47%);
+    color:purple;
+    font-size: 3em;
+    background-color:red;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  div.test:hover {
+    overflow: visible;
+  }
