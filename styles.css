@@ -16,8 +16,17 @@ h1{
     color:white;
     text-align: center;
     align-self: center;
+    font-size: 4em;
 }
 
+h2{
+    font-size: 3em;
+}
+
+.rainbow-2{
+    background:url(./img/istockphoto-172442462-170667a.jpg);
+
+}
 
 .rainbow-2:hover{
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet, red);
@@ -25,7 +34,7 @@ h1{
     display: inline-block;
   border-radius: 4px;
   background-color: #f4511e;
-  border: none;
+    border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
